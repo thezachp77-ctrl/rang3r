@@ -10,7 +10,7 @@ logo +=" | | | (_| | | | | (_| |___) | |    \n"
 logo +=" |_|  \__,_|_| |_|\__, |____/|_|    \n"
 logo +="                  |___/             \n\n"
 from termcolor import colored
-print colored(logo,"red")
+print colored(logo,"red")(red)
 print colored("Created by florianx00 - H4d3s / Republic of Albania","yellow")
 print ""
 import optparse 
